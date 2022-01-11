@@ -1,0 +1,613 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+.landing-nft .header-section.submit-projectss{position: relative; background-repeat: no-repeat; height: auto; width: 100%;background-size: cover;background-position: top center;}
+
+.detail-project .header-section .submit-project{
+    background-color: #1E1C26;
+    border-radius: 15px;
+    height: auto;
+    /* position: relative; */
+    top: 193px;
+    margin-top: 189px;
+    width: 100%;
+    margin: 0px auto 181px;
+    position: relative;
+
+}
+
+.disabled_disabled{
+    color: red !important;
+}
+
+.form-control{
+    color: #fff!important;
+}
+.landing-nft .header-section .main-heads-ones{
+    position: absolute;
+    left: 0;
+    width: 100%;
+  }
+.detail-project .header-section .submit-project .inner-submit-upper-div{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    height: 120px;
+    padding-left: 80px;
+    padding-top: 70px;
+    padding-bottom: 86px;
+}
+
+
+.detail-project .header-section .submit-project .inner-submit-upper-div h1{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.detail-project .header-section .submit-project .inner-submit-lower-div{
+    padding-left: 80px;
+    padding-top: 66px;
+}
+
+.detail-project .header-section .submit-project .inner-submit-lower-div h4{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+
+
+/* detail page start css */
+
+.detail-project .header-section .submit-project .inner-submit-upper-div h1{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.landing-nft.detail-project .main-footer{
+    margin-top: 100px;
+}
+
+.detail-project .header-section .submit-project .inner-submit-lower-div{
+    padding-left: 80px;
+    padding-top: 66px;
+}
+
+
+.custom-file-inputt {
+    color: transparent;
+    border: none!important;
+    padding: 0px 0px 9px 58px!important;
+  }
+  .custom-file-inputt::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  .custom-file-inputt::before {
+    content: 'Browser';
+    color: #1561FB;
+    display: inline-block;
+    background: transparent;
+    border-radius: 3px;
+    width: 10px;
+    border-radius: 50px;
+    height: 0px;
+    outline: none;
+    -webkit-user-select: none;
+    cursor: pointer;
+    padding-top: 0px;
+    padding-left: 27px;
+    font-size: 16px;
+  }
+  .custom-file-inputt:hover::before {
+    border-color: black;
+  }
+  .custom-file-inputt:active {
+    outline: 0;
+  }
+  .custom-file-inputt:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9); 
+  }
+
+  .detail-project .header-section .submit-project .inner-submit-lower-div h4{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.detail-project .header-section .submit-project .inner-submit-lower-div .form-group label{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #1561FB;
+    padding-top: 36px;
+
+}
+.detail-project .header-section .submit-project .inner-submit-lower-div .form-group label span{
+    color: #DA3838;
+}
+
+.detail-project .header-section .submit-project .inner-submit-lower-div .form-group input,.detail-project .header-section .submit-project .inner-submit-lower-div .form-group textarea{
+    background: transparent;
+    border: 2px solid rgba(196, 196, 196, 0.5);
+    box-sizing: border-box;
+    border-radius: 9px;
+    padding: 30px 0px 30px 30px;
+    margin-top: 10px;
+    box-shadow: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.detail-project .header-section .submit-project .inner-submit-lower-div .form-group input::placeholder{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 15px;
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.detail-project .header-section .submit-project .inner-submit-lower-div .form-group textarea::placeholder{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 15px;
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.detail-project .header-section .submit-project .inner-submit-lower-div .form-group .dashed-border-new{
+    width: 204px;
+    height: auto;
+    border: 2px dashed rgba(196, 196, 196, 0.5);
+    box-sizing: border-box;
+    border-radius: 9px;
+    /* padding-top: 60px;
+    padding-bottom: 59px; */
+    margin-top: 10px;
+}
+
+.detail-project .header-section .submit-project .inner-submit-lower-div .form-group .dashed-border-new .main-image-div p{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 15px;
+    color: rgba(255, 255, 255, 0.3);
+    margin-bottom: 0px;
+    padding-top: 20px;
+}
+
+.detail-project .header-section .submit-project .inner-submit-lower-div .form-group .dashed-border-new .main-image-div p span{
+    color: #1561FB;
+}
+
+.detail-project .header-section .submit-project .inner-submit-lower-div .form-group .dashed-border-new .main-image-div{
+    text-align: center;
+}
+
+
+.detail-project .header-section .submit-project .hr-submit-form{
+    background: #0F0E13;
+    height: 1.5px;
+    width: 89%;
+    margin: 55px auto 0px;
+}
+
+.detail-project .header-section .submit-project .inner-submit-lower-div h6{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #ffffff;
+    padding-top: 36px;
+}
+
+
+.detail-project .disabled{
+    width: 220px;
+    height: 65px;
+    background: linear-gradient(92.21deg, #4176FD 0%, #1561FB 100%);
+    opacity: 0.3;
+    border-radius: 14px;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    outline: none;
+    cursor: default !important;
+    box-shadow: none;
+    color: #ffffff;
+    border: none;
+    margin: 30px 0px 100px;
+    margin-right: 20px !important;
+}
+.detail-project .back_btn{
+    width: 220px;
+    height: 65px;
+    background: linear-gradient(92.21deg, #4176FD 0%, #1561FB 100%);
+    padding:16px 40px;
+    /* opacity: 0.3; */
+    border-radius: 14px;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    outline: none;
+    cursor: default !important;
+    box-shadow: none;
+    color: #ffffff;
+    border: none;
+    margin: 30px 0px 100px;
+    margin-right: 20px !important;
+}
+/* .detail-project .header-section .submit-project .inner-submit-lower-div .buttons-submit button{
+    width: 220px;
+    height: 65px;
+    background: linear-gradient(92.21deg, #4176FD 0%, #1561FB 100%);
+    border-radius: 14px;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    outline: none;
+    box-shadow: none;
+    color: #ffffff;
+    border: none;
+    margin: 30px 0px 100px;
+} */
+.inputErrors{
+    color: red !important;
+    padding: 2px;
+    font-size: 18px;
+    padding-left: 32px;
+   }
+   .detail-project .header-section .submit-project .inner-submit-lower-div .sd-container {
+    position: relative;
+    float: left;
+    width: 100%;
+    cursor: pointer;
+  }
+  .detail-project .header-section .submit-project .inner-submit-lower-div .sd-container input{
+    color: rgba(255, 255, 255, 0.2);
+    padding-right: 20px!important;
+    cursor: pointer;
+  }
+  
+  .detail-project .header-section .submit-project .inner-submit-lower-div .sd {
+    border: 1px solid #1cbaa5;
+    padding: 5px 10px;
+    height: 30px;
+    width: 100%;
+    cursor: pointer;
+  }
+  .detail-project .header-section .submit-project .inner-submit-lower-div .open-button {
+    position: absolute;
+    top: 14px;
+    cursor: pointer;
+    right: 30px;
+    width: 25px;
+    height: 25px;
+    pointer-events: none;
+  }
+  .detail-project .header-section .submit-project .inner-submit-lower-div .open-button button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+  }
+  .detail-project .header-section .submit-project .inner-submit-lower-div .buttons-submit .button-approve{
+    width: 220px;
+    height: 65px;
+    background: linear-gradient(92.21deg, #4176FD 0%, #1561FB 100%);
+    border-radius: 14px;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    outline: none;
+    box-shadow: none;
+    color: #ffffff;
+    border: none;
+    margin: 100px 20px 100px 0px;
+}
+
+.detail-project .header-section .submit-project .inner-submit-lower-div .buttons-submit .button-reject{
+    width: 220px;
+    height: 65px;
+    background: #442129;
+    border-radius: 14px;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    outline: none;
+    box-shadow: none;
+    color: #ffffff;
+    border: none;
+    margin: 100px 20px 100px 0px;
+}
+
+.detail-project .header-section .submit-project .inner-submit-lower-div .buttons-submit .button-edit{
+    width: 220px;
+    height: 65px;
+    background: #324F36;
+    border-radius: 14px;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    outline: none;
+    box-shadow: none;
+    color: #ffffff;
+    border: none;
+    margin: 100px 0px 100px;
+}
+
+@media(max-width: 1920px){
+    .projects .header-section .submit-project{
+        height: auto;
+    }
+}
+
+
+@media(max-width: 1680px){
+    .detail-project .header-section .submit-project .inner-submit-upper-div h1{
+        font-size: 34px;
+    }
+    .detail-project .header-section .submit-project .inner-submit-lower-div .buttons-submit button{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .detail-project .header-section .submit-project{
+        width: 100%;
+    }
+    .landing-nft.detail-project .main-footer {
+        margin-top: 100px;
+    }
+}
+
+@media(max-width: 1600px){
+    .detail-project .header-section .submit-project{
+        width: 100%;
+    }
+}
+
+@media(max-width: 1500px){
+    .detail-project .header-section .submit-project{
+        width: 100%;
+    }
+    .detail-project .header-section .submit-project .inner-submit-upper-div h1{
+        font-size: 26px;
+    }
+    .detail-project .header-section .submit-project .inner-submit-upper-div p{
+        font-size: 18px;
+    }
+    .detail-project .header-section .submit-project .inner-submit-lower-div h4{
+        font-size: 24px;
+    }
+    .detail-project .header-section .submit-project .inner-submit-lower-div .form-group label{
+        font-size: 16px;
+    }
+    .detail-project .header-section .submit-project .inner-submit-lower-div .form-group input::placeholder{
+        font-size: 16px;
+    }
+    .detail-project .header-section .submit-project .inner-submit-lower-div .form-group textarea::placeholder{
+        font-size: 16px;
+    }
+    .detail-project .header-section .submit-project .inner-submit-lower-div .form-group input, .detail-project .header-section .submit-project .inner-submit-lower-div .form-group textarea{
+        padding: 24px 0px 26px 30px;
+    }
+    .detail-project .header-section .submit-project .inner-submit-lower-div .buttons-submit button{
+        width: 188px;
+        height: 58px;
+        margin: 60px 0px 80px;
+    }
+    .landing-nft.detail-project .main-footer {
+        margin-top: 100px;
+    }
+}
+
+@media(max-width: 1400px){
+    .landing-nft.detail-project .main-footer {
+        margin-top: 100px;
+    }
+    .detail-project .header-section .submit-project {
+        width: 100%;
+    }
+    .detail-project .header-section .submit-project .inner-submit-upper-div{
+        padding-top: 48px;
+        padding-bottom: 80px;
+    }
+    .detail-project .header-section .submit-project .inner-submit-upper-div p{
+        padding-top: 0px;
+    }
+    .detail-project .header-section .submit-project .inner-submit-lower-div{
+        padding-top: 38px;
+    }
+    .detail-project .header-section .submit-project .inner-submit-lower-div .form-group label{
+        padding-top: 14px;
+    }
+    .detail-project .header-section .submit-project .inner-submit-lower-div .buttons-submit .button-approve {
+        width: 170px;
+        height: 55px;
+        font-size: 16px;
+        margin: 40px 20px 40px 0px;
+    }
+    .detail-project .header-section .submit-project .inner-submit-lower-div .buttons-submit .button-reject {
+        width: 170px;
+        height: 55px;
+        font-size: 16px;
+        margin: 40px 20px 40px 0px;
+    }
+    .detail-project .header-section .submit-project .inner-submit-lower-div .buttons-submit .button-edit {
+        width: 170px;
+        height: 55px;
+        font-size: 16px;
+        margin: 40px 20px 40px 0px;
+    }
+}
+
+@media(max-width: 1199px){
+    .landing-nft.detail-project .main-footer {
+        margin-top: 100px;
+    }
+    .detail-project .header-section .submit-project .inner-submit-upper-div{
+        padding-left: 45px;
+    }
+    .detail-project .header-section .submit-project .inner-submit-lower-div{
+        padding-left: 45px;
+    }
+    .detail-project .header-section .submit-project{
+        width: 100%;
+    }
+
+    .detail-project .header-section .submit-project .inner-submit-upper-div{
+        padding-top: 48px;
+        padding-bottom: 80px;
+    }
+    .detail-project .header-section .submit-project .inner-submit-upper-div p{
+        padding-top: 0px;
+    }
+}
+
+@media(max-width: 991px){
+    .landing-nft.detail-project .main-footer {
+        margin-top: 100px;
+    }
+    .detail-project .header-section .submit-project .inner-submit-lower-div{
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+    .detail-project .header-section .submit-project .inner-submit-upper-div{
+        padding-left: 42px;
+    }
+    .detail-project .header-section .submit-project{
+        width: 100%;
+    }
+}
+
+@media(max-width: 600px){
+    .detail-project .header-section .submit-project .inner-submit-lower-div .open-button{
+        top: 23px;
+        right: 20px;
+    }
+    .detail-project .header-section .submit-project{
+        top: 132px;
+    }
+    .landing-nft.detail-project .main-footer {
+        margin-top: 50px;
+    }
+    .detail-project .header-section .submit-project {
+        width: 100%;
+    }
+    .detail-project .header-section .submit-project .inner-submit-lower-div {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .detail-project .header-section .submit-project .inner-submit-upper-div {
+        padding-left: 32px;
+    }
+    .detail-project .header-section .submit-project .inner-submit-lower-div .form-group input, .detail-project .header-section .submit-project .inner-submit-lower-div .form-group textarea {
+        padding: 24px 0px 26px 12px;
+        font-size: 16px;
+    }
+    .detail-project .header-section .submit-project .inner-submit-lower-div .buttons-submit .button-approve {
+        width: 91%;
+        height: 55px;
+        font-size: 16px;
+        margin: 20px 20px 20px 0px;
+    }
+    .detail-project .header-section .submit-project .inner-submit-lower-div .buttons-submit .button-reject {
+        width: 91%;
+        height: 55px;
+        font-size: 16px;
+        margin: 20px 20px 20px 0px;
+    }
+    .detail-project .header-section .submit-project .inner-submit-lower-div .buttons-submit .button-edit {
+        width: 91%;
+        height: 55px;
+        font-size: 16px;
+        margin: 20px 20px 20px 0px;
+    }
+}
+
+@media(max-width: 400px){
+    .detail-project .header-section .submit-project .inner-submit-lower-div .form-group input::placeholder{
+        font-size: 14px;
+    }
+    .detail-project .header-section .submit-project .inner-submit-lower-div .form-group textarea::placeholder{
+        font-size: 14px;
+    }
+    .detail-project .header-section .submit-project {
+        width: 100%;
+    }
+    .detail-project .header-section .submit-project .inner-submit-lower-div .buttons-submit .button-approve {
+        width: 100%;
+        height: 55px;
+        font-size: 16px;
+        margin: 20px 20px 20px 0px;
+    }
+    .detail-project .header-section .submit-project .inner-submit-lower-div .buttons-submit .button-reject {
+        width: 100%;
+        height: 55px;
+        font-size: 16px;
+        margin: 20px 20px 20px 0px;
+    }
+    .detail-project .header-section .submit-project .inner-submit-lower-div .buttons-submit .button-edit {
+        width: 100%;
+        height: 55px;
+        font-size: 16px;
+        margin: 20px 20px 20px 0px;
+    }
+}
+
+@media(max-width: 360px){
+    .detail-project .header-section .submit-project .inner-submit-lower-div .buttons-submit button {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .detail-project .header-section .submit-project .inner-submit-lower-div .buttons-submit button {
+        width: 157px;
+        height: 50px;
+        margin: 50px 0px 70px;
+    }
+    .landing-nft.detail-project .main-footer {
+        margin-top: 50px;
+    }
+    .detail-project .header-section .submit-project .inner-submit-lower-div {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .detail-project .header-section .submit-project .inner-submit-upper-div {
+        padding-left: 12px;
+    }
+    .detail-project .header-section .submit-project .inner-submit-upper-div h1 {
+        font-size: 22px;
+    }
+    .detail-project .header-section .submit-project {
+        width: 100%;
+    }
+}

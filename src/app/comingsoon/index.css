@@ -1,0 +1,655 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.landing-nft .header-section.main-pool{position: relative; background-repeat: no-repeat; height: auto; width: 100%;background-size: cover;background-position: top center;}
+.header-section .main-pool-page{
+    padding-top: 219px;
+}
+
+/* .header-section .main-pool-page .main-left-side .upper{
+    display: flex;
+    justify-content: space-between;
+} */
+
+.header-section .main-pool-page .main-left-side .upper .left-inner{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.header-section .main-pool-page .main-left-side .upper .left-inner .name-socials h1{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 28px;
+    color: #ffffff;
+}
+.header-section .main-pool-page .main-left-side .upper .left-inner .name-socials .socials .linkss{
+    margin-right: 20px;
+}
+.header-section .main-pool-page .main-left-side .upper .right-inner .button-one{
+    /* font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    color: #3BB54A;
+    box-shadow: none;
+    outline: none;
+    border: 1px solid #3BB54A;
+    background-color: transparent;
+    width: 102px;
+    height: 38px;
+    border-radius: 9px;
+    margin-right: 16px;
+    margin-left: 10px; */
+    background-color: transparent;
+    outline: none;
+    box-shadow: none;
+    border: 1.5px solid #B62525;
+    border-radius: 9px;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    color: #B62525;
+    width: 102px;
+    height: 38px;
+}
+
+.header-section .main-pool-page .main-left-side .upper .right-inner .button-two{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    color: #1561FB;
+    box-shadow: none;
+    outline: none;
+    border: 1px solid #1561FB;
+    background-color: transparent;
+    width: 74px;
+    height: 38px;
+    border-radius: 9px;
+    margin-left: 10px;
+}
+
+.header-section .main-pool-page .main-left-side .upper .right-inner{
+    margin-top: 24px;
+}
+.header-section .main-pool-page .main-left-side .upper .left-inner .name-socials h1 span{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 28px;
+}
+.header-section .main-pool-page .main-left-side .upper .left-inner .image{
+    border: 2px solid #1561FB;
+    border-radius: 50%;
+    margin-right: 20px;
+} 
+
+.header-section .main-pool-page .main-left-side .para p{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #C4C4C4;
+    padding-top: 40px;
+}
+.header-section .main-pool-page .main-left-side .para .para-two{
+    padding-top: 14px;
+}
+
+.header-section .main-pool-page .main-left-side .approved{
+    display: flex;
+    margin-top: 70px;
+}
+.header-section .main-pool-page .main-left-side .approved button{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    box-shadow: none;
+    outline: none;
+    /* background: linear-gradient(92.21deg, #4176FD 0%, #1561FB 100%); */
+    width: 192px;
+    height: 58px;
+    border-radius: 14px;
+    border: none;
+    margin-right: 25px;
+}
+
+.header-section .main-pool-page .main-left-side .approved button:hover{
+    background-color: red;
+    color: #ffffff;
+}
+
+
+/* .header-section .main-pool-page .main-right-side{
+    padding: 38px 60px;
+} */
+
+
+
+
+
+
+.header-section .main-pool-page .main-right-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-section .main-pool-page .main-right-side .wallet-balance{
+    background: #1E1C26;
+    border-radius: 15px;
+    width: 406px;
+    height: auto;
+    margin-right: 10px;
+    padding: 32px 32px;
+}
+
+.header-section .main-pool-page .main-right-side .wallet-balance .wallet-balancess h6{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #1561FB;
+}
+.header-section .main-pool-page .main-right-side .wallet-balance .wallet-balancess .image-text{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+
+.header-section .main-pool-page .main-right-side .wallet-balance .wallet-balancess .image-text img{
+margin-right: 14px;
+}
+.header-section .main-pool-page .main-right-side .wallet-balance .wallet-balancess .image-text h4{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #ffffff;
+    margin-bottom: 0px;
+}
+
+.header-section .main-pool-page .main-right-side .wallet-balance .hr-submit-form{
+    background-color: #0F0E13;
+    height: 1.5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header-section .main-pool-page .main-right-side .wallet-balance .form-group label{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #1561FB;
+}
+.header-section .main-pool-page .main-right-side .wallet-balance .form-group input{
+    height: 65px;
+    background-color: transparent;
+    border: 2px solid rgba(196, 196, 196, 0.5);
+    box-sizing: border-box;
+    border-radius: 9px;
+   
+}
+.header-section .main-pool-page .main-right-side .wallet-balance .form-group{
+    position: relative;
+}
+.header-section .main-pool-page .main-right-side .wallet-balance .form-group .bnb-drop{
+    position: absolute;
+    top: 57px;
+    right: 31px;
+}
+.header-section .main-pool-page .main-right-side .wallet-balance .form-group .bnb-drop .drop-down-single-line .dropdown a{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 15px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.header-section .main-pool-page .main-right-side .wallet-balance .form-group .bnb-drop .drop-down-single-line .dropdown .image{
+margin-right: 11px;
+}
+.header-section .main-pool-page .main-right-side .wallet-balance .form-group .bnb-drop .drop-down-single-line .dropdown .main-carret{
+    margin-left: 18px;
+    margin-bottom: 10px;
+}
+.header-section .main-pool-page .main-right-side .wallet-balance .form-group .bnb-drop .drop-down-single-line .dropdown .main-carret i{
+    font-size: 16px;
+}
+.header-section .main-pool-page .main-right-side .wallet-balance .form-group .bnb-drop .drop-down-single-line .dropdown .dropdown-menu{
+    background-color: #1E1C26;
+    border: 2px solid rgba(196, 196, 196, 0.5);
+    color: #1561FB;
+    border-radius: 14px;
+}
+.header-section .main-pool-page .main-right-side .wallet-balance .form-group .bnb-drop .drop-down-single-line .dropdown .dropdown-menu a{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #1561FB;
+}
+.header-section .main-pool-page .main-right-side .wallet-balance .form-group input::placeholder{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 15px;
+    color: rgba(255, 255, 255, 0.2);
+}
+.header-section .main-pool-page .main-right-side .wallet-balance .you-will-receive{
+    margin-top: -16px;
+}
+.header-section .main-pool-page .main-right-side .wallet-balance .you-will-receive .span-one{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #1561FB;
+}
+
+.header-section .main-pool-page .main-right-side .wallet-balance .you-will-receive .FAN{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.header-section .main-pool-page .main-right-side .wallet-balance .you-will-receive .image{
+    padding-right: 10px;
+}
+
+.header-section .main-pool-page .main-right-side .wallet-balance .buttons .vested_btn{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    background: linear-gradient(92.21deg, #4176FD 0%, #1561FB 100%);
+    border-radius: 9px; 
+    box-shadow: none;
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 50px;
+}
+.header-section .main-pool-page .main-right-side .wallet-balance .buttons .vested_btn1{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    background: linear-gradient(92.21deg, #4176FD 0%, #1561FB 100%);
+    opacity: 0.3;
+    border-radius: 9px; 
+    cursor: default;
+    box-shadow: none;
+    pointer-events: none;
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 50px;
+}
+.header-section .main-pool-page .main-right-side .wallet-balance .buttons{
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* pool details start */
+.header-section .main-pool-page .main-right-side .pool-details{
+    background: #1E1C26;
+    border-radius: 15px;
+    width: 406px;
+    height: 500px;
+    margin-right: 10px;
+    padding: 32px 32px;
+}
+
+.header-section .main-pool-page .main-right-side .pool-details .poor-detailss h6{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #1561FB;
+}
+
+.header-section .main-pool-page .main-right-side .pool-details .poor-detailss p{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 4px;
+    color: #ffffff;
+}
+
+/* calender css */
+.header-section .main-pool-page .main-right-side .pool-details .calender{
+    background-color: rgba(12, 12, 12, 1);
+    border-radius: 12px;
+    margin-top: 30px;
+  }
+  .header-section .main-pool-page .main-right-side .pool-details .calender h1{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+  }
+  .header-section .main-pool-page .main-right-side .pool-details .calender p{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+  
+  }
+  
+  .header-section .main-pool-page .main-right-side .pool-details .main-calender{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .header-section .main-pool-page .main-right-side .pool-details .calender .main-calender h1{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 28px;
+    color: #ffffff;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  .header-section .main-pool-page .main-right-side .pool-details .calender .main-calender h1 span{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 28px;
+    color: #ffffff;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+ .joining-pool-modal .main-divs .transaction-approved h2{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #3BB54A!important;
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 20px;
+  }
+.joining-pool-modal .main-divs .transaction-approved h3{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff!important;
+    text-align: center;
+    padding-bottom: 180px;
+  }
+  .joining-pool-modal .main-divs  h1{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1561FB;
+  }
+
+@media(max-width: 1500px){
+    .header-section .main-pool-page .main-left-side .para .para-two{
+      font-size: 16px;
+        line-height: 24px;
+    }
+    .header-section .main-pool-page .main-left-side .para p{
+        line-height: 24px;
+        font-size: 16px;
+    }
+    .header-section .main-pool-page .main-left-side .para .para-two{
+        padding-top: 0px;
+    }
+    .header-section .main-pool-page .main-left-side .upper .left-inner .name-socials .socials .linkss{
+        margin-right: 14px;
+    }
+    .header-section .main-pool-page .main-right-side .main-details-2nd .inner-heading .inne-one {
+        padding-right: 63px;
+    }
+    .header-section .main-pool-page .main-left-side .para p{
+        font-size: 16px;
+    }
+    .header-section .main-pool-page .main-left-side .approved {
+      
+        margin-top: 50px;
+    }
+    .header-section .main-pool-page .main-right-side .wallet-balance .buttons button{
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 1400px){
+    .header-section .main-pool-page .main-left-side .upper .left-inner .image img{
+        width: 100px;
+    }
+    .header-section .main-pool-page .main-left-side .upper .left-inner .name-socials h1{
+        font-size: 30px;
+    }
+    .header-section .main-pool-page .main-left-side .para p {
+        font-size: 17px;
+    }
+    .header-section .main-pool-page .main-left-side .approved button{
+        font-size: 18px;
+        line-height: 27px;
+        width: 182px;
+        height: 52px;
+    }
+}
+
+@media(max-width: 1199px){
+    .header-section .main-pool-page .main-right-side .pool-details .poor-detailss p{
+        font-size: 14px;
+    }
+    .header-section .main-pool-page .main-right-side .pool-details .calender p{
+        font-size: 14px;
+    }
+    .header-section .main-pool-page .main-right-side .wallet-balance .you-will-receive .span-one{font-size: 14px;}
+    .header-section .main-pool-page .main-right-side .wallet-balance .you-will-receive .FAN{
+        font-size: 14px;
+    }
+    .header-section .main-pool-page .main-right-side .wallet-balance .form-group .bnb-drop .drop-down-single-line .dropdown .main-carret i{
+        font-size: 14px;
+    }
+    .header-section .main-pool-page .main-right-side .wallet-balance .form-group .bnb-drop .drop-down-single-line .dropdown .main-carret{
+        margin-left: 11px;
+    }
+    .header-section .main-pool-page .main-right-side .wallet-balance .form-group .bnb-drop .drop-down-single-line .dropdown a{
+        font-size: 16px;
+    }
+    .header-section .main-pool-page .main-right-side .wallet-balance .buttons button {
+        font-size: 14px;
+    }
+    .header-section .main-pool-page .main-right-side .wallet-balance .form-group label{
+        font-size: 14px;
+    }
+    .header-section .main-pool-page .main-right-side .wallet-balance .wallet-balancess h6{
+        font-size: 14px;
+    }
+    .header-section .main-pool-page .main-right-side .wallet-balance .wallet-balancess .image-text h4{
+        font-size: 18px;
+    }
+    .header-section .main-pool-page .main-left-side .upper .left-inner .image img{
+        width: 76px;
+    }
+    .header-section .main-pool-page .main-left-side .upper .left-inner .name-socials h1 {
+        font-size: 22px;
+        margin-bottom: 0px;
+    }
+    .header-section .main-pool-page .main-left-side .upper .left-inner .name-socials h1 span{
+        font-size: 20px;
+    }
+    .header-section .main-pool-page .main-left-side .upper .left-inner .name-socials .socials .linkss img{
+        width: 28px;
+    }
+    .header-section .main-pool-page .main-left-side .upper .left-inner .name-socials .socials .linkss{
+        margin-right: 8px;
+    }
+    .header-section .main-pool-page .main-right-side {
+        padding: 38px 20px;
+    }
+    .header-section .main-pool-page .main-right-side .main-details .inner-heading p{
+        font-size: 14px;
+    }
+    .header-section .main-pool-page .main-right-side .main-details .inner-heading .inne-one p.secondrow{
+        font-size: 18px;
+    }
+    .header-section .main-pool-page .main-right-side .main-details-2nd .inner-heading .inne-one {
+        padding-right: 50px;
+    }
+    .header-section .main-pool-page .main-right-side .main-details-2nd p{
+        font-size: 14px;
+    }
+    .header-section .main-pool-page .main-right-side .main-details-2nd .inner-heading .inne-one p.secondrow{
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 991px){
+    .header-section .main-pool-page {
+        padding-top: 144px;
+    }
+    .header-section .main-pool-page .main-right-side{
+        margin-top: 50px;
+    }
+   
+}
+
+@media(max-width: 600px){
+    .header-section .main-pool-page .main-right-side {
+        margin-top: 14px;
+    }
+    .header-section .main-pool-page .main-right-side .pool-details{
+        margin-top: 26px;
+    }
+    .header-section .main-pool-page .main-right-side {
+        padding: 0px 2px 2px;
+    }
+    .header-section .main-pool-page .main-right-side{
+        flex-wrap: wrap;
+    }
+    .header-section .main-pool-page .main-left-side .upper{
+        flex-wrap: wrap;
+    }
+    .header-section .main-pool-page .main-left-side .upper .right-inner button{
+        margin-top: 20px;
+    }
+    .header-section .main-pool-page .main-right-side .main-details .inner-heading{
+        flex-wrap: wrap;
+    }
+    .header-section .main-pool-page .main-right-side .main-details .inner-heading p{
+        font-size: 12px;
+    }
+    .header-section .main-pool-page .main-right-side .main-details .inner-heading .inne-one p.secondrow{
+        font-size: 14px;
+    }
+    .header-section .main-pool-page .main-right-side .main-details-2nd p{
+        font-size: 12px;
+    }
+    .header-section .main-pool-page .main-right-side .main-details-2nd .inner-heading .inne-one p.secondrow{
+        font-size: 14px;
+    }
+    .header-section .main-pool-page .main-right-side .main-details-2nd .inner-heading .inne-one {
+        padding-right: 40px;
+    }
+    .header-section .main-pool-page {
+        padding-top: 150px;
+    }
+}
+
+@media(max-width: 400px){
+    .header-section .main-pool-page .main-right-side .main-details .inner-heading .inne-one{
+        margin-right: 30px;
+    }
+    .header-section .main-pool-page .main-left-side .upper .left-inner .image img {
+        width: 84px;
+    }
+    .header-section .main-pool-page .main-left-side .upper .left-inner .name-socials .socials .linkss {
+        margin-right: 7px;
+    }
+    .header-section .main-pool-page {
+        padding-top: 150px;
+    }
+}
+
+@media(max-width: 360px){
+    .header-section .main-pool-page .main-right-side .pool-details{
+        padding: 32px 14px;
+    }
+    .header-section .main-pool-page .main-right-side .wallet-balance{
+        padding: 32px 14px;
+    }
+    .header-section .main-pool-page .main-right-side .main-details .inner-heading .inne-one {
+        margin-right: -2px;
+    }
+    .header-section .main-pool-page .main-left-side .upper .left-inner .name-socials h1 {
+        font-size: 22px;
+    }
+    .header-section .main-pool-page .main-left-side .upper .left-inner .image{
+        margin-right: 7px;
+    }
+    .header-section .main-pool-page .main-left-side .upper .left-inner .name-socials .socials .linkss {
+        margin-right: 3px;
+    }
+    .header-section .main-pool-page {
+        padding-top: 150px;
+    }
+}

@@ -1,0 +1,238 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+
+.landing-nft.sigin-form .header-section.sigin-projects{position: relative; background-repeat: no-repeat; min-height: 100vh; width: 100%;background-size: cover;background-position: top center;}
+.landing-nft.sigin-form .main-div{
+ 
+    margin-top: 100px;
+}
+.landing-nft.sigin-form .main-div .main-div-image{
+    text-align: center;
+    padding-bottom: 60px;
+}
+.landing-nft.sigin-form .main-div .image-form{
+    background: #1E1C26;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    width: 576px;
+    margin: 0 auto;
+}
+.landing-nft.sigin-form .main-div .image-form .inner-div{
+    padding: 40px 80px;
+    width: 100%;
+}
+
+.landing-nft.sigin-form .main-div .image-form .inner-div h1{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.landing-nft.sigin-form .main-div .image-form .inner-div p{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: #C4C4C4;
+    padding-top: 10px;
+}
+
+
+.landing-nft.sigin-form .main-div .image-form .inner-div .form-group label{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #1561FB;
+    padding-top: 25px;
+}
+
+.landing-nft.sigin-form .main-div .image-form .inner-div .form-group input::placeholder{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 15px;
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.landing-nft.sigin-form .main-div .image-form .inner-div .form-group input{
+    background: transparent;
+    border: 2px solid rgba(196, 196, 196, 0.5);
+    box-sizing: border-box;
+    border-radius: 9px;
+    padding: 30px 0px 30px 30px;
+    margin-top: 10px;
+    box-shadow: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.landing-nft.sigin-form .main-div .image-form .inner-div .buttons button{
+    width: 100%;
+    height: 65px;
+    background: linear-gradient(92.21deg, #4176FD 0%, #1561FB 100%);
+    border-radius: 14px;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    outline: none;
+    box-shadow: none;
+    color: #ffffff;
+    border: none;
+}
+
+
+.landing-nft.sigin-form .main-div .image-form .inner-div .form-check label{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.landing-nft.sigin-form .main-div .image-form .inner-div .form-check{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    padding-left: 0px;
+    cursor: pointer;
+}
+
+
+
+
+.landing-nft.sigin-form .main-div .image-form .inner-div .checkcolor{
+    appearance: none!important;
+    height: 20px; width: 20px; 
+    border: 1px solid white; 
+    border-radius: 3px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-left: 4px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .landing-nft.sigin-form .main-div .image-form .inner-div .checkcolor::after{
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    color: white!important;
+    font-weight: 900;
+    font-size: 16px;
+    display: none;
+  }
+  .landing-nft.sigin-form .main-div .image-form .inner-div .checkcolor:checked::after{
+    display: block;
+  }
+  .landing-nft.sigin-form .main-div .image-form .inner-div .checkcolor:checked{
+    background-color: #1561FB;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  @media(max-width: 1500px){
+    .landing-nft.sigin-form .main-div .main-div-image img{
+        width: 30%;
+    }
+    .landing-nft.sigin-form .main-div .main-div-image{
+        padding-bottom: 36px;
+    }
+    .landing-nft.sigin-form .main-div {
+        margin-top: 50px;
+    }
+    .landing-nft.sigin-form .main-div .image-form .inner-div .form-group label{
+        padding-top: 0px;
+    }
+    .landing-nft.sigin-form .main-div .image-form .inner-div h1{
+        font-size: 26px;
+    }
+}
+
+@media(max-width: 1400px){
+    .landing-nft.sigin-form .main-div .image-form .inner-div .form-group input{
+        margin-top: 4px;
+        padding: 24px 0px 24px 30px;
+        font-size: 16px;
+    }
+    .landing-nft.sigin-form .main-div .image-form .inner-div .form-group input::placeholder{
+        font-size: 14px;
+    }
+    .landing-nft.sigin-form .main-div .image-form .inner-div .form-check{
+        margin-bottom: 18px;
+        margin-top: 8px;
+    }
+    .landing-nft.sigin-form .main-div .image-form .inner-div .buttons button{
+        height: 55px;
+        font-size: 18px;
+    }
+    .landing-nft.sigin-form .main-div .image-form .inner-div h1 {
+        font-size: 22px;
+    }
+    .landing-nft.sigin-form .main-div .image-form .inner-div p{font-size: 14px;
+    padding-top: 4px;
+    margin-bottom: 0px;        
+    }
+    .landing-nft.sigin-form .main-div .image-form{
+        width: 500px;
+    }
+}
+
+@media(max-width: 1199px){
+    .landing-nft.sigin-form .main-div .image-form{
+        width: 450px;
+    }
+    .landing-nft.sigin-form .main-div .image-form .inner-div {
+        padding: 40px 60px;
+        width: 100%;
+    }
+}
+
+@media(max-width: 600px){
+    .landing-nft.sigin-form .main-div .image-form {
+        width: 394px;
+    }
+    .landing-nft.sigin-form .main-div .image-form .inner-div {
+        padding: 40px 45px;
+        width: 100%;
+    }
+    .landing-nft.sigin-form .main-div .main-div-image img {
+        width: 44%;
+    }
+}
+
+@media(max-width: 400px){
+    .landing-nft.sigin-form .main-div .image-form {
+        width: 345px;
+    }
+
+    .landing-nft.sigin-form .main-div .image-form .inner-div {
+        padding: 40px 34px;
+        width: 100%;
+    }
+}
+
+@media(max-width: 360px){
+    .landing-nft.sigin-form .main-div .image-form {
+        width: 288px;
+    }
+
+    .landing-nft.sigin-form .main-div .image-form .inner-div {
+        padding: 40px 24px;
+        width: 100%;
+    }
+}

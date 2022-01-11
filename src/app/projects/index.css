@@ -1,0 +1,556 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+.landing-nft.projects .header-section.submit-projects{position: relative; background-repeat: no-repeat; height: 1800px; width: 100%;background-size: cover;background-position: top center;}
+
+.projects .header-section .submit-project{
+    background-color: #1E1C26;
+    border-radius: 15px;
+    height: 1426px;
+    position: absolute;
+    top: 193px;
+    width: 84.5%;
+
+}
+
+.warning{
+    color: crimson;
+}
+
+.exlude{
+    font-size: 22px;
+}
+.setpad{
+    padding: 20px 0 0 0; 
+}
+.projects .header-section .submit-project .inner-submit-upper-div{
+    height: 120px;
+    padding-left: 80px;
+    padding-top: 70px;
+    padding-bottom: 86px;
+    padding-right: 80px;
+}
+#gfngfmg{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    line-height: 0;
+    padding: 0;
+    border: 0;
+}
+.projects .header-section .submit-project .inner-submit-upper-div h1{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.projects .header-section .submit-project .inner-submit-lower-div{
+    padding-left: 80px;
+    padding-top: 66px;
+}
+
+.projects .header-section .submit-project .inner-submit-lower-div h4{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+/* new css projects table */
+
+.projects .header-section .submit-project .inner-submit-upper-div .searchbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between; 
+    align-items: center;
+  }
+  .projects .header-section .submit-project .inner-submit-upper-div .searchbar h1{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 28px;
+    color: #1561FB;
+  }
+  .projects .header-section .submit-project .inner-submit-upper-div .searchbar .searchContainer{
+    border: 1.5px solid #1561FB;
+    width: 58%;
+    border-radius: 15px;
+    position: relative;
+  }
+  .fa, .fas{
+      font-weight: 900!important;
+  }
+  .main-search-ison{
+      position: absolute;
+      top: 0px;
+  }
+  .projects .header-section .submit-project .inner-submit-upper-div .searchbar .searchContainer i{
+    color: #1561FB;
+    padding-right: 30px;
+    padding-left: 24px;
+    padding-top: 0px;
+    font-size: 22px;
+    font-weight: lighter;
+  }
+  .projects .header-section .submit-project .inner-submit-upper-div .searchbar .searchContainer input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    padding-left: 60px;
+    color: #ffffff;
+    padding-right: 20px;
+    font-size: 20px;
+  }
+  .button-details{
+      
+  }
+  .button-detailss .buttion-on{
+    background: #1561FB;
+    border-radius: 14px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    width: 126px;
+    height: 55px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+  }
+  
+  .main-image-dhgy{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      object-fit: cover;
+  }
+  .button-detailss .button-rig{
+    background: #442129;
+    border-radius: 14px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #DA3838;
+    width: 126px;
+    height: 55px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .projects .header-section .submit-project .inner-submit-upper-div .searchbar p{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+    margin-bottom: 6px;
+    padding-left: 20px;
+  }
+  ::placeholder{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.4);
+  }
+  
+  .projects .header-section .submit-project .inner-submit-upper-div .searchbar .drop-down-single-line .dropdown a{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1561FB;
+    text-decoration: none;
+  }
+  .projects .header-section .submit-project .inner-submit-upper-div .searchbar .drop-down-single-line .dropdown a span{
+    padding-left: 70px;
+  }
+  .projects .header-section .submit-project .inner-submit-upper-div .searchbar .drop-down-single-line .dropdown{
+    width: 170px;
+    height: 55px;
+    border: 1.5px solid #1561FB;
+    box-sizing: border-box;
+    border-radius: 14px;
+    padding-left: 16px;
+  }
+ 
+  .projects .header-section .submit-project .inner-submit-upper-div .searchbar .drop-down-single-line .dropdown .dropdown-menu{
+      background-color: #1E1C26;
+      border: 1px solid #1561FB;
+      color: #ffffff;
+      top: 16px!important;
+      left: -17px!important;
+      width: 173px!important;
+  }
+
+
+  .projects .header-section .submit-project .inner-submit-upper-div .searchbar .buttons-filter button{
+    width: 133px;
+    height: 55px;
+    box-shadow: none;
+    outline: none;
+    background-color: transparent;
+    border: 1.5px solid #1561FB;
+    box-sizing: border-box;
+    border-radius: 14px;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1561FB;
+  }
+  .projects .header-section .submit-project .inner-submit-upper-div .searchbar .buttons-filter button span{
+      padding-right: 9px;
+  }
+  .projects .header-section .submit-project .inner-lower-div{
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-bottom: 86px;
+    padding-right: 60px;
+  }
+
+
+  .projects .header-section .submit-project .inner-lower-div .projects-table-main .table-striped thead th{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #1561FB;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    text-align: start;
+  }
+
+  .projects .header-section .submit-project .inner-lower-div .projects-table-main .table-striped .main-t-body-text tr td{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 44px;
+    font-family: 'poppins';
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: start;
+  }
+
+  .projects .header-section .submit-project .inner-lower-div .projects-table-main .table-striped tbody tr:nth-of-type(odd) {
+    background-color: transparent;
+}
+
+.projects .header-section .submit-project .inner-lower-div .projects-table-main .table-striped .main-t-body-text tr .text-left img{
+   padding-right: 10px;
+}
+
+/* .projects .header-section .submit-project .inner-lower-div .projects-table-main .table-striped .main-t-body-text tr .text-left td{
+    color: #ffffff;
+} */
+
+.projects .header-section .submit-project .inner-lower-div .projects-table-main .table-striped .main-t-body-text tr .text-left{  
+    color: #FFFFFF;
+}
+.projects .header-section .submit-project .inner-lower-div .projects-table-main .table-striped .main-t-body-text tr td{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 44px;
+    color: #ffffff;
+}
+.projects .header-section .submit-project .inner-lower-div .projects-table-main .table-striped .main-t-body-text tr .text-left-2nd a{
+    color: #1561FB;
+}
+
+.projects .header-section .submit-project .inner-lower-div .projects-table-main .table-striped .main-t-body-text tr .text-left-normal{
+    font-weight: normal;
+}
+
+.projects .header-section .submit-project .inner-lower-div .projects-table-main .table-striped .main-t-body-text tr .text-green-approved{
+    color: #3BB54A;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.projects .header-section .submit-project .inner-lower-div .projects-table-main .table-striped .main-t-body-text tr .text-green-pending{
+    color: #FFC805;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.projects .header-section .submit-project .inner-lower-div .projects-table-main .table-striped .main-t-body-text tr .text-green-rejected{
+    color: #DA3838;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.disabled1{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    border: none;
+    padding: 14px 40px;
+    margin-left: 10px;
+    color: #ffffff;
+    background: linear-gradient(92.21deg, #4176FD 0%, #1561FB 100%);
+    border-radius: 14px;
+}
+
+.disabled2 {
+    background: linear-gradient(92.21deg, #8c9bbe 50%, #1561FB 100%);
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 14px 40px;
+    color: #ffffff;
+    margin-left: 10px;
+    opacity: 0.5;
+    border-radius: 14px;
+    border: none;
+    cursor: none;
+
+}
+
+.green1{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    border: none;
+    padding: 14px 40px;
+    color: #ffffff;
+    background: #28a745;
+    border-radius: 14px;
+}
+
+.red{
+    color:red;
+}
+
+.projects .header-section .submit-project .inner-lower-div .projects-table-main .table-striped .main-t-body-text tr .button-details a{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 14px 40px;
+    color: #ffffff;
+    background: linear-gradient(92.21deg, #4176FD 0%, #1561FB 100%);
+    border-radius: 14px;
+
+}
+
+.projects .header-section .submit-project .inner-lower-div .projects-table-main .table-striped .main-t-body-text tr td{
+    border-top: none;
+}
+
+.projects .header-section .submit-project .inner-lower-div .projects-table-main .button-table .load-more-button{
+    text-align: center;
+    margin-top: 38px;
+}
+.projects .header-section .submit-project .inner-lower-div .projects-table-main .button-table .load-more-button button{
+    width: 176px;
+    height: 55px;
+    outline: none;
+    box-shadow: none;
+    border: 1.5px solid #1561FB;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: transparent;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1561FB;
+}
+
+@media(max-width: 1920px){
+    .projects .header-section .submit-project{
+        height: auto;
+    }
+}
+
+@media(max-width: 1600px){
+    .projects .header-section .submit-project{
+        width: 94.5%;
+    }
+    .projects .header-section .submit-project{
+        height: auto;
+    }
+    
+}
+
+@media(max-width: 1500px){
+    .projects .header-section .submit-project {
+        width: 91%;
+    }
+}
+
+
+@media(max-width: 1400px){
+    .projects .header-section .submit-project {
+        width: 93%;
+    }
+    .projects .header-section .submit-project .inner-submit-upper-div .searchbar .drop-down-single-line .dropdown{
+        width: 154px;
+    }
+    .projects .header-section .submit-project .inner-submit-upper-div .searchbar .drop-down-single-line .dropdown a span {
+        padding-left: 52px;
+    }
+    .projects .header-section .submit-project .inner-submit-upper-div .searchbar h1{
+        font-size: 34px;
+    }
+    .projects .header-section .submit-project .inner-submit-upper-div .searchbar .searchContainer{
+        height: 50px;
+    }
+    .projects .header-section .submit-project .inner-submit-upper-div .searchbar .searchContainer i{
+        padding-top: 14px;
+    }
+    .projects .header-section .submit-project .inner-submit-upper-div .searchbar .drop-down-single-line .dropdown{
+        padding-top: 5px;
+    }
+}
+
+
+@media(max-width: 1199px){
+    .projects .header-section .submit-project {
+        width: 97%;
+    }
+    .projects .header-section .submit-project .inner-lower-div .projects-table-main .table-striped thead th{
+        white-space: nowrap;
+        font-size: 16px;
+    }
+    .projects .header-section .submit-project .inner-submit-upper-div{
+        padding-left: 44px;
+        padding-right: 44px;
+    }
+    .projects .header-section .submit-project .inner-submit-upper-div .searchbar .searchContainer{
+        width: 46%;
+    }
+    .landing-nft.projects .header-section.submit-projects{
+        height: 1800px;
+    }
+    .projects .header-section .submit-project .inner-lower-div{
+        padding-left: 20px;
+        padding-right: 20px;
+        overflow: unset;
+    }
+    .projects .header-section .submit-project .inner-lower-div .projects-table-main .table-striped .main-t-body-text tr td{
+        white-space: nowrap;
+    }
+    .projects .header-section .submit-project .inner-lower-div .projects-table-main .table-striped .main-t-body-text tr .button-details a{
+        font-size: 12px;
+        padding: 10px 30px;
+    }
+}
+
+
+
+@media(max-width: 991px){
+    .projects .header-section .submit-project .inner-submit-upper-div .searchbar{
+        flex-wrap: wrap;
+    }
+    .projects .header-section .submit-project .inner-submit-upper-div .searchbar .searchContainer{
+        width: 74%;
+    }
+    .projects .header-section .submit-project .inner-lower-div{
+        padding-top: 60px;
+    }
+    .projects .header-section .submit-project .inner-submit-upper-div .searchbar .buttons-filter button{
+        margin-top: 20px;
+    }
+    .projects .header-section .submit-project .inner-submit-upper-div .searchbar .drop-down-single-line .dropdown{
+        margin-top: 20px;
+    }
+    .projects .header-section .submit-project .inner-submit-upper-div{
+        padding-top: 50px;
+    }
+    .projects .header-section .submit-project .inner-lower-div .projects-table-main .button-table .load-more-button button{
+        margin-bottom: 40px;
+    }
+    .projects .header-section .submit-project .inner-lower-div{
+        padding-bottom: 30px;
+    }
+}
+
+@media(max-width: 600px){
+    .projects .header-section .submit-project .inner-submit-upper-div .searchbar h1{
+        font-size: 30px;
+    }
+    .projects .header-section .submit-project {
+        width: 93%;
+    }
+    .projects .header-section .submit-project .inner-submit-upper-div .searchbar .searchContainer {
+        width: 100%;
+    }
+    .projects .header-section .submit-project .inner-submit-upper-div .searchbar h1{
+        margin-bottom: 20px;
+    }
+    .projects .header-section .submit-project .inner-lower-div {
+        padding-top: 140px;
+    }
+    .projects .header-section .submit-project .inner-submit-upper-div .searchbar .searchContainer input{
+        width: 68%;
+    }
+    .projects .header-section .submit-project{
+        top: 120px;
+    }
+    .projects .header-section .submit-project .inner-submit-upper-div .searchbar .drop-down-single-line .dropdown{
+        height: 48px;
+    }
+    .projects .header-section .submit-project .inner-submit-upper-div .searchbar .buttons-filter button{
+        height: 48px;
+    }
+}
+
+
+@media(max-width: 360px){
+    .projects .header-section .submit-project .inner-submit-upper-div .searchbar .drop-down-single-line .dropdown {
+        width: 106%;
+    }
+    .projects .header-section .submit-project .inner-submit-upper-div .searchbar .searchContainer i{
+        padding-left: 18px;
+    }
+    .projects .header-section .submit-project .inner-submit-upper-div .searchbar .searchContainer input{
+        font-size: 16px;
+    }
+    .projects .header-section .submit-project .inner-submit-upper-div .searchbar .searchContainer i{
+        padding-top: 11px;
+    }
+    .projects .header-section .submit-project .inner-submit-upper-div .searchbar .drop-down-single-line .dropdown a span {
+        padding-left: 140px;
+    }
+    .projects .header-section .submit-project .inner-lower-div {
+        padding-top: 182px;
+    }
+    .projects .header-section .submit-project .inner-submit-upper-div .searchbar .buttons-filter button{
+        width: 240px;
+    }
+}

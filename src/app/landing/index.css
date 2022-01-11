@@ -1,0 +1,1399 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+html{
+  scroll-behavior: smooth;
+}
+
+:root{
+    --background-main: #333645;
+    --text-color-yellow: #ffaa06;
+    --text-color-grey: #a8a7b0;
+  }
+
+.button:focus {outline: none;box-shadow: none;}
+.btn:focus {outline: none;box-shadow: none;}
+
+/* landing NFT Banner */
+.landing-nft .header-section{position: relative; background-repeat: no-repeat; height: 706px; width: 100%;background-size: cover;background-position: top center;}
+.landing-nft .header-section .main-heads-one{
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+}
+
+.landing-nft .header-section .main-head h1{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 62px;
+  line-height: 75px;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+.landing-nft .header-section .main-head p{
+  font-family: 'poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 35px;
+color: #7c7c7c;
+}
+
+.landing-nft .header-section .main-head button{
+  /* //background: linear-gradient(92.21deg, #4176FD 0%, #1561FB 100%); */
+  background: #1561FB;
+
+  outline: none;
+  box-shadow: none;
+  border-radius: 15px;
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 21px 30px;
+  border: none;
+  color: #ffffff;
+  margin-top: 60px;
+}
+.landing-nft .header-section .main-head button a{
+  color: #ffffff;
+}
+.landing-nft .header-section .main-head button img{
+  padding-right: 13px;
+}
+
+.landing-nft .header-section .main-head{
+  text-align: center;
+  padding: 230px;
+}
+
+.landing-nft .main-footer{
+ 
+}
+.landing-nft .main-footer .main-fottt{
+  background-color: #0C0C0C;
+}
+
+.landing-nft  .featured-pool{
+  width: 100%;
+  margin-top: 100px;
+}
+.landing-nft  .featured-pool .searchbar{
+  display: flex;
+  width: 100%;
+  justify-content: space-between; 
+  align-items: center;
+}
+.landing-nft  .featured-pool .searchbar h1{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 75px;
+  color: #FFFFFF;
+}
+.landing-nft  .featured-pool .searchbar .searchContainer{
+  border: 1.5px solid rgba(255, 255, 255, 0.4);
+  width: 48%;
+  height: 64px;
+  border-radius: 15px;
+}
+.landing-nft  .featured-pool .searchbar .searchContainer i{
+  color: #404040;
+  padding-right: 30px;
+  padding-left: 24px;
+  padding-top: 16px;
+}
+.landing-nft  .featured-pool .searchbar .searchContainer input{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  width: 80%;
+  color: #ffffff;
+  font-size: 24px;
+}
+.landing-nft  .featured-pool .searchbar p{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+  margin-bottom: 6px;
+  padding-left: 20px;
+}
+::placeholder{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 27px;
+}
+
+.featured-pool .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.featured-pool .switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.featured-pool .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #17434F;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.first-second .main-card{
+  display: flex;
+}
+.first-second .item{
+  background: #1F1D26;
+  border-radius: 15px;
+  display: flex;
+  padding: 16px 0px 14px;
+  justify-content: center;
+}
+.banner-mju{
+  width: 100%;
+}
+.dfgh{
+  font-size: 22px!important;
+}
+
+.inner-banners-x .textsd h4{
+  font-size: 36px!important;
+  font-weight: 800;
+}
+
+.inner-banners-x{
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background: #8010B9;
+  padding: 9px 50px;
+  text-align: center; */
+}
+.first-second .main-card .text-down span{
+ text-transform: uppercase;
+}
+.first-second .main-card .text-down h4{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px!important;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin-bottom: 14px;
+}
+.first-second .main-card .text-down{
+  margin-top: 17px;
+}
+.first-second .main-card .text-down h6{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px!important;
+  line-height: 28px;
+  color: #3BB54A;
+  margin-bottom: 0px;
+}
+.featured-pool .slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.owl-carousel .owl-item img{
+ /* width: unset!important; */
+}
+
+.iconxerc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.iconxerc .main-imgd{
+ width: 99px!important;
+ height: 99px!important;
+ border-radius: 50%!important;
+ border: 3px solid #1462fb;
+}
+
+.featured-pool input:checked + .slider {
+  background-color: #17434F;
+}
+
+.featured-pool input:focus + .slider {
+  box-shadow: 0 0 1px #17434F;
+}
+
+.featured-pool input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.featured-pool .slider.round {
+  border-radius: 34px;
+}
+
+.featured-pool .slider.round:before {
+  border-radius: 50%;
+}
+.featured-pool .main-slider{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.featured-pool-coming-soon .card-main .main-image img {
+
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.jhghjg{
+  height: 200px !important;
+  width: 100% !important;
+  object-fit: contain !important;
+}
+.dddd{
+  width:83px;
+  height:83px
+}
+.featured-pool .card-main{
+  background: linear-gradient(#1F1D26 0%, #0F0E13 100%);
+  border-radius: 15px;
+  height: auto;
+  border: 2px solid #262544;
+  transition: all 1s ease-in-out;
+  margin-bottom: 20px !important;
+}
+.featured-pool .card-main_1{
+  background: linear-gradient(#1F1D26 0%, #0F0E13 100%);
+  opacity: 0.3;
+  cursor: default;
+  pointer-events: none;
+  border-radius: 15px;
+  height: auto;
+  border: 2px solid #262544;
+  transition: all 1s ease-in-out;
+  margin-bottom: 20px !important;
+}
+
+.featured-pool .card-main:hover{
+  border: 2px solid #7875FF;
+  cursor: pointer;
+}
+
+.featured-pool .card-main_1:hover{
+  border:none;
+  cursor: default;
+}
+/* .featured-pool .card-main {
+  position:relative;
+  border: 2px solid rgba(120, 117, 255, 0);
+} */
+
+
+/* .featured-pool .card-main::before {
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  border-radius:15px; 
+  padding:3px; 
+  background:linear-gradient(180deg,rgba(120, 117, 255, 0),rgba(120, 117, 255, 0.2)); 
+  -webkit-mask: 
+     linear-gradient(#fff 0 0) content-box, 
+     linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out; 
+  mask-composite: exclude; 
+} */
+.featured-pool .card-main{
+  padding: 46px 30px 20px;
+}
+.featured-pool .card-main_1 {
+  padding: 46px 30px 20px;
+}
+.featured-pool .card-main .main-image{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.featured-pool .card-main_1 .main-image{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+/* .main-image{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+} */
+
+
+/* .featured-pool .card-main:hover{
+    border: 2px solid rgba(120, 117, 255, 1);
+} */
+
+
+
+.featured-pool .card-main .main-image h1,.card-main_1 .main-image h1{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.featured-pool .main-pool-featured a{
+  text-decoration: none;
+}
+
+.featured-pool .card-main .main-image h1 span{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+}
+/* calender css */
+.featured-pool .calender{
+  background-color: rgba(12, 12, 12, 1);
+  border-radius: 12px;
+  margin-top: 20px;
+}
+.featured-pool .calender h1{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+.featured-pool .calender p{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+}
+
+.featured-pool .main-calender{
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+.featured-pool .calender .main-calender h1{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.featured-pool .calender .main-calender h1 span{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.featured-pool .card-main .main-image button,.card-main_1 .main-image button{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  color: rgba(6, 202, 255, 1);
+ border: none;
+  background-color: transparent;
+  width: 74px;
+  height: 38px;
+  border-radius: 9px;
+  margin-left:60px;
+}
+.featured-pool .card-main .main-image button,.card-main_1 .main-image button{
+  position:relative;
+}
+.featured-pool .card-main .main-image button::before,.card-main_1 .main-image button::before {
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  border-radius:9px; 
+  padding:2px; 
+  background:linear-gradient(180deg,rgba(65, 118, 253, 1),rgba(0, 209, 255, 1)); 
+  -webkit-mask: 
+     linear-gradient(#fff 0 0) content-box, 
+     linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out; 
+  mask-composite: exclude; 
+}
+
+.progress-baar .percentage{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+.progress-baar .percent{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+.progress-baar .min-max{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.progress-baar .percentage .one{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(128, 128, 128, 1);
+}
+.progress-baar .percentage p{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.progress-baar .percent .one{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 28px;
+  color: rgba(128, 128, 128, 1);
+}
+.progress-baar .progress-bar{
+  width: 95%;
+  background-color: rgb(5, 7, 7)!important;
+  border-radius: 50px;
+}
+.progress-baar .progress{
+  height: 12px!important;
+}
+.progress-baar .percent .one span{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 28px;
+  color: rgb(240, 9, 9);
+}
+.progress-baar .percent p{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.progress-baar .min-max p{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.progress-baar .min-max .one{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.featured-pool .main-pool-featured{
+  padding-top: 60px;
+}
+.featured-pool .progress-baar .coming-soon-feature{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* featured-pool-closed */
+
+.featured-pool-closed{
+  width: 100%;
+  position: relative;
+  margin-top: 50px;
+}
+
+.featured-pool-closed .card-main{
+  background: linear-gradient(#1F1D26 0%, #0F0E13 100%);
+  border-radius: 15px;
+  height: auto;
+  border: 2px solid #262544;
+  transition: all 1s ease-in-out;
+}
+.featured-pool-closed .card-main:hover{
+  border: 2px solid #7875FF;
+  cursor: pointer;
+}
+
+/* .featured-pool-closed .card-main {
+  position:relative;
+}
+.featured-pool-closed .card-main::before {
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  border-radius:15px; 
+  padding:3px; 
+  background:linear-gradient(180deg,rgba(120, 117, 255, 0),rgba(120, 117, 255, 0.2)); 
+  -webkit-mask: 
+     linear-gradient(#fff 0 0) content-box, 
+     linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out; 
+  mask-composite: exclude; 
+} */
+.featured-pool-closed .card-main{
+  padding: 46px 30px 20px;
+}
+.featured-pool-closed .card-main .main-image{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.featured-pool-closed .card-main .main-image h1{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+
+
+.featured-pool-closed .card-main .main-image h1 span{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.featured-pool-closed .card-main .main-image button{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  color: rgba(6, 202, 255, 1);
+ border: none;
+  background-color: transparent;
+  width: 74px;
+  height: 38px;
+  border-radius: 9px;
+  margin-left:60px;
+}
+.featured-pool-closed .card-main .main-image button{
+  position:relative;
+}
+.featured-pool-closed .card-main .main-image button::before {
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  border-radius:9px; 
+  padding:2px; 
+  background:linear-gradient(180deg,rgba(65, 118, 253, 1),rgba(0, 209, 255, 1)); 
+  -webkit-mask: 
+     linear-gradient(#fff 0 0) content-box, 
+     linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out; 
+  mask-composite: exclude; 
+}
+
+.featured-pool-closed .progress-baar .percentage{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+.featured-pool-closed .progress-baar .percent{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+.featured-pool-closed .progress-baar .min-max{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 28px;
+  
+}
+.featured-pool-closed .progress-baar .percentage .one{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(128, 128, 128, 1);
+}
+.featured-pool-closed .progress-baar .percentage p{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.featured-pool-closed .progress-baar .percent .one{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 28px;
+  color: rgba(128, 128, 128, 1);
+}
+.featured-pool-closed .progress-baar .progress-bar{
+  width: 100%;
+  background-color:#1561FB !important;
+  border-radius: 50px;
+}
+.featured-pool-closed .progress-baar .progress{
+  height: 12px!important;
+}
+.featured-pool-closed .progress-baar .percent .one span{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 1);
+}
+.featured-pool-closed .progress-baar .percent p{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.featured-pool-closed .progress-baar .min-max p{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.featured-pool-closed .progress-baar .min-max .one{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+
+.featured-pool-closed h1{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 75px;
+  color: #ffffff;
+}
+.featured-pool-closed .main-pool-featured{
+  margin-top: 60px;
+}
+
+.progress-baar .button{
+text-align: center;
+margin-top: 40px;
+margin-bottom: 25px;
+
+
+}
+
+.progress-baar .button button{
+  background-color: transparent;
+  outline: none;
+  box-shadow: none;
+  border: 1.5px solid #B62525;
+  border-radius: 9px;
+  font-family: 'poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 15px;
+color: #B62525;
+width: 102px;
+height: 38px;
+}
+
+
+/* pool coming soon */
+
+.featured-pool-coming-soon{
+  width: 100%;
+  position: relative;
+  margin-top: 50px;
+}
+
+.featured-pool-coming-soon .card-main{
+  background: linear-gradient(#1F1D26 0%, #0F0E13 100%);
+  border-radius: 15px;
+  height: auto;
+  border: 2px solid #262544;
+  transition: all 1s ease-in-out;
+}
+.featured-pool-coming-soon .card-main:hover{
+  border: 2px solid #7875FF;
+  cursor: pointer;
+}
+/* .featured-pool-coming-soon .card-main {
+  position:relative;
+}
+.featured-pool-coming-soon .card-main::before {
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  border-radius:15px; 
+  padding:3px; 
+  background:linear-gradient(180deg,rgba(120, 117, 255, 0),rgba(120, 117, 255, 0.2)); 
+  -webkit-mask: 
+     linear-gradient(#fff 0 0) content-box, 
+     linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out; 
+  mask-composite: exclude; 
+} */
+.featured-pool-coming-soon .card-main{
+  padding: 46px 30px 20px;
+}
+.featured-pool-coming-soon .card-main .main-image{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.featured-pool-coming-soon .card-main .main-image h1{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+
+
+.featured-pool-coming-soon .card-main .main-image h1 span{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.featured-pool-coming-soon .card-main .main-image button{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  color: rgba(6, 202, 255, 1);
+ border: none;
+  background-color: transparent;
+  width: 74px;
+  height: 38px;
+  border-radius: 9px;
+  margin-left:60px;
+}
+.featured-pool-coming-soon .card-main .main-image button{
+  position:relative;
+}
+.featured-pool-coming-soon .card-main .main-image button::before {
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  border-radius:9px; 
+  padding:2px; 
+  background:linear-gradient(180deg,rgba(65, 118, 253, 1),rgba(0, 209, 255, 1)); 
+  -webkit-mask: 
+     linear-gradient(#fff 0 0) content-box, 
+     linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out; 
+  mask-composite: exclude; 
+}
+
+.featured-pool-coming-soon .progress-baar .percentage{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+}
+.featured-pool-coming-soon .progress-baar .percent{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+.featured-pool-coming-soon .progress-baar .min-max{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 0px;
+  
+}
+.featured-pool-coming-soon .progress-baar .coming-soon-feature{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+  text-align: center;
+}
+.featured-pool-coming-soon .progress-baar .percentage .one{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(128, 128, 128, 1);
+}
+.featured-pool-coming-soon .progress-baar .percentage p{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.featured-pool-coming-soon .progress-baar .percent .one{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 28px;
+  color: rgba(128, 128, 128, 1);
+}
+.featured-pool-coming-soon .progress-baar .progress-bar{
+  width: 0%;
+  background-color: rgba(0, 209, 255, 1)!important;
+ 
+}
+.featured-pool-coming-soon .progress-baar .progress{
+  height: 12px!important;
+}
+.featured-pool-coming-soon .progress-baar .percent .one span{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 1);
+}
+.featured-pool-coming-soon .progress-baar .percent p{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.featured-pool-coming-soon .progress-baar .min-max p{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.featured-pool-coming-soon .progress-baar .min-max .one{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+
+.featured-pool-coming-soon h1{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 75px;
+  color: #ffffff;
+}
+.featured-pool-coming-soon .main-pool-featured{
+  margin-top: 60px;
+}
+
+.featured-pool-coming-soon .progress-baar .button{
+text-align: center;
+
+
+}
+
+.featured-pool-coming-soon .progress-baar .button button{
+  background-color: transparent;
+  outline: none;
+  box-shadow: none;
+  border: 1.5px solid #B62525;
+  border-radius: 9px;
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  color: #B62525;
+  width: 102px;
+  height: 38px;
+}
+
+.featured-pool-coming-soon .calender{
+  background-color: rgba(12, 12, 12, 1);
+  border-radius: 12px;
+  margin-top: 20px;
+}
+.featured-pool-coming-soon .calender h1{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+.featured-pool-coming-soon .calender p{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+}
+
+.featured-pool-coming-soon .main-calender{
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+.featured-pool-coming-soon .calender .main-calender h1{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.featured-pool-coming-soon .calender .main-calender h1 span{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+
+
+
+@media(max-width: 1680px){
+  .featured-pool .card-main .main-image button,.card-main_1 .main-image button{
+    margin-left: 10px;
+  }
+  .landing-nft .header-section .main-head h1{
+    font-size: 50px;
+  }
+  .landing-nft .header-section .main-head p{
+    font-size: 19px;
+  }
+  .landing-nft .header-section .main-head button{
+    padding: 17px 22px;
+    font-size: 18px;
+    margin-top: 44px;
+  }
+  .landing-nft .featured-pool .searchbar h1{
+    font-size: 44px;
+  }
+  .featured-pool .card-main .main-image img,.card-main_1 .main-image img{
+    padding-right: 8px;
+  }
+  .featured-pool-coming-soon h1{
+    font-size: 44px;
+  }
+  .featured-pool-closed h1{
+    font-size: 44px;
+  }
+ 
+}
+
+@media(max-width: 1600px){
+  .landing-nft .header-section .main-head h1 {
+    font-size: 44px;
+}
+.landing-nft .header-section .main-head p {
+  font-size: 18px;
+}
+.landing-nft .header-section .main-head button {
+  padding: 17px 22px;
+  font-size: 17px;
+  margin-top: 37px;
+}
+.landing-nft .featured-pool .searchbar h1 {
+  font-size: 40px;
+}
+.featured-pool-coming-soon h1 {
+  font-size: 40px;
+}
+.featured-pool-closed h1 {
+  font-size: 40px;
+}
+
+}
+
+@media(max-width: 1500px){
+  .featured-pool-coming-soon .progress-baar .coming-soon-feature{
+    font-size: 13px;
+  }
+  .featured-pool .progress-baar .coming-soon-feature{
+    font-size: 13px;
+  }
+  .landing-nft .header-section .main-head h1 {
+    font-size: 40px;
+    padding-bottom: 8px;
+}
+.landing-nft .header-section .main-head p {
+  font-size: 16px;
+}
+.landing-nft .header-section .main-head button {
+  padding: 15px 22px;
+  font-size: 16px;
+  margin-top: 26px;
+}
+.landing-nft .featured-pool .searchbar h1 {
+  font-size: 36px;
+}
+.landing-nft .featured-pool .searchbar .searchContainer{
+  height: 58px;
+}
+.landing-nft .featured-pool .searchbar .searchContainer input{
+  font-size: 18px;
+}
+::placeholder{
+  font-size: 18px;
+}
+.landing-nft .featured-pool .searchbar p{
+  font-size: 16px;
+}
+.featured-pool .card-main {
+  padding: 46px 20px 20px;
+}
+.featured-pool .card-main .main-image h1{
+  font-size: 20px;
+}
+.featured-pool-coming-soon h1 {
+  font-size: 36px;
+}
+.featured-pool-coming-soon .card-main {
+  padding: 46px 20px 20px;
+}
+.featured-pool-coming-soon .card-main .main-image button{
+  margin-left: 10px;
+}
+.featured-pool-coming-soon .card-main .main-image img {
+  padding-right: 8px;
+}
+.featured-pool-coming-soon .calender p{
+  font-size: 14px;
+}
+.featured-pool-coming-soon .calender .main-calender h1{
+  font-size: 26px;
+}
+.progress-baar .percent p{
+  font-size: 14px;
+}
+.featured-pool-closed h1 {
+  font-size: 36px;
+}
+.featured-pool-closed .card-main {
+  padding: 46px 20px 20px;
+}
+.featured-pool-closed .card-main .main-image img {
+  padding-right: 8px;
+}
+.featured-pool-closed .card-main .main-image button{
+  margin-left: 20px;
+}
+}
+
+@media(max-width: 1400px){
+  
+  .landing-nft .header-section .main-head button {
+    padding: 13px 22px;
+    font-size: 14px;
+    margin-top: 19px;
+}
+  .landing-nft .header-section .main-head h1{
+    font-size: 36px;
+  }
+  .landing-nft .featured-pool .searchbar h1 {
+    font-size: 30px;
+}
+.landing-nft .featured-pool .searchbar .searchContainer {
+  height: 52px;
+}
+.landing-nft .featured-pool .searchbar p{
+  padding-left: 14px;
+}
+.landing-nft .featured-pool .searchbar .searchContainer i{
+  padding-top: 10px;
+}
+.featured-pool-coming-soon h1 {
+  font-size: 30px;
+}
+.featured-pool-closed h1 {
+  font-size: 30px;
+}
+.featured-pool .card-main {
+  padding: 36px 16px 16px;
+}
+.featured-pool-coming-soon .card-main {
+  padding: 36px 16px 16px;
+}
+.featured-pool-closed .card-main {
+  padding: 36px 16px 16px;
+}
+}
+
+@media(max-width: 1199px){
+  .landing-nft .featured-pool .searchbar{
+    width: 97%;
+  }
+  .landing-nft .featured-pool .searchbar h1{
+    padding-left: 22px;
+  }
+  .landing-nft .featured-pool .searchbar{
+    flex-wrap: wrap;
+    
+  }
+  .landing-nft .featured-pool .searchbar .searchContainer{
+    width: 40%;
+  }
+  .landing-nft .header-section .main-head h1 {
+    font-size: 30px;
+    padding-bottom: 0px;
+}
+.landing-nft .header-section .main-head {
+  text-align: center;
+  padding: 220px 150px;
+}
+.landing-nft .header-section .main-head button {
+  padding: 12px 22px;
+  font-size: 15px;
+  margin-top: 21px;
+}
+.featured-pool .card-main{
+  margin-bottom: 30px;
+}
+.featured-pool-coming-soon .card-main{
+  margin-bottom: 30px;
+}
+.featured-pool-closed .card-main{
+  margin-bottom: 30px;
+}
+
+}
+
+@media(max-width: 991px){
+  .landing-nft .featured-pool .searchbar .searchContainer input{
+    width: 60%;
+  }
+  .landing-nft .featured-pool .searchbar .searchContainer {
+    width: 38%;
+}
+}
+
+@media(max-width: 600px){
+  .landing-nft .featured-pool .searchbar{
+    justify-content: center;
+  }
+  .landing-nft .header-section .main-head {
+    text-align: center;
+    padding: 175px 15px!important;
+  }
+  .landing-nft .featured-pool .searchbar .searchContainer {
+    width: 74%;
+    margin-bottom: 28px;
+  }
+  .landing-nft .featured-pool .searchbar .searchContainer i {
+    padding-top: 15px;
+  }
+  .landing-nft .featured-pool .searchbar .searchContainer input {
+    width: 65%;
+  }
+  .featured-pool .card-main .main-image{
+    justify-content: unset;
+  }
+  .featured-pool .card-main .main-image button {
+    margin-left: 106px;
+}
+.featured-pool-coming-soon .card-main .main-image{
+  justify-content: unset;
+}
+.featured-pool-coming-soon .card-main .main-image button {
+  margin-left: 142px;
+}
+.featured-pool-closed .card-main .main-image{
+  justify-content: unset;
+}
+.featured-pool-closed .card-main .main-image button {
+  margin-left: 140px;
+}
+.banner-mju{
+  margin-top: 120px;
+}
+}
+
+@media(max-width: 400px){
+  .featured-pool .card-main .main-image button {
+    margin-left: 67px;
+}
+.featured-pool-coming-soon .card-main .main-image button {
+  margin-left: 92px;
+}
+.featured-pool-closed .card-main .main-image button {
+  margin-left: 91px;
+}
+
+.banner-mju{
+  margin-top: 120px;
+}
+}
+@media(max-width: 360px){
+  .featured-pool .card-main .main-image button {
+    margin-left: 10px;
+}
+.featured-pool-coming-soon .card-main .main-image button {
+  margin-left: 36px;
+}
+.featured-pool-coming-soon h1 {
+  font-size: 29px;
+}
+.featured-pool-closed .card-main .main-image button {
+  margin-left: 36px;
+}
+
+.banner-mju{
+  margin-top: 120px;
+}
+}
+
+
+.ksajdksj h6{
+  color: #fff;
+}
+
+.ksajdksj p{
+ color: #fff;
+ font-size: 16px;
+ text-overflow: ellipsis;
+ overflow: hidden;
+ /* width: 200px; */
+ white-space: nowrap;
+}

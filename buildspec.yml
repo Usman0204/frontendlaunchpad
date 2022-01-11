@@ -1,0 +1,26 @@
+version: 0.2
+
+phases:
+  install: 
+    commands:
+      - npm i npm@latest -g
+      - pip install --upgrade pip
+      - pip install --upgrade awscli
+      - apt-get update
+      - apt-get install libssl-dev g++ make --yes
+      - npm i n
+      - n 10.22.0
+  pre_build:
+    commands:
+      - npm install
+      - npm i pm2 -g
+      - npm i nodemon -g
+  build:
+    commands:
+      - npm run build
+
+artifacts:
+  files:
+    - '**/*'
+  discard-paths: no
+  base-directory: build

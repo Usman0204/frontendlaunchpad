@@ -1,0 +1,249 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,900;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import url("https://use.typekit.net/mio5uxr.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+:root{
+    --background-main: #333645;
+    --text-color-yellow: #f47a2f;
+    --text-color-grey: #a8a7b0;
+  }
+
+/* footer main new  */
+
+
+.main-footer{
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  position: relative;
+}
+.main-footer .community h1{
+  font-family: 'poppins';
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 65px;
+color: #ffffff;
+}
+.main-footer .community{
+  padding-left: 110px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.main-footer .community p{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 160%;
+  color: #C4C4C4;
+  padding-right: 120px;
+  padding-top: 20px;
+}
+
+.main-footer .socials{
+  float: right;
+  padding-right: 110px;
+  padding-top: 200px;
+}
+
+.main-footer .socials img{
+ padding-right: 40px;
+}
+
+.main-footer .first-image{
+  position: absolute;
+ left: 0px;
+}
+
+.main-footer .first-images{
+  position: absolute;
+ right: 0px;
+ bottom: 0;
+}
+.main-footer .first-imagess{
+  position: absolute;
+ left: 100px;
+ bottom: 0;
+}
+
+.all-right-reserved{
+  width: 100%;
+}
+
+.all-right-reserved .main-terms{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.all-right-reserved .main-terms .main-termss{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 160%;
+  color: #C4C4C4;
+}
+
+.all-right-reserved .main-terms .main-term{
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 160%;
+  color: #1561FB;
+}
+.all-right-reserved{
+  padding-bottom: 30px;
+}
+
+
+@media(max-width: 1680px){
+  .main-footer .community h1{
+    font-size: 44px;
+  }
+}
+
+@media(max-width: 1600px){
+  .main-footer .community h1{
+    font-size: 40px;
+  }
+}
+
+@media(max-width: 1500px){
+  .main-footer .community h1{
+    font-size: 36px;
+  }
+  .main-footer .community p{
+    font-size: 16px;
+  }
+  .all-right-reserved .main-terms .main-termss{
+    font-size: 16px;
+  }
+  .all-right-reserved .main-terms .main-term{
+    font-size: 16px;
+  }
+}
+
+@media(max-width: 1400px){
+  .main-footer .community h1 {
+    font-size: 32px;
+}
+.main-footer .community p {
+  font-size: 14px;
+}
+.main-footer .socials img{
+  width: 90px;
+}
+.all-right-reserved .main-terms .main-termss {
+  font-size: 14px;
+}
+.all-right-reserved .main-terms .main-term{
+  font-size: 14px;
+}
+}
+
+@media(max-width: 1199px){
+  .main-footer .community p{
+    padding-right: 0px;
+  }
+  .main-footer .socials{
+    padding-right: 12px;
+  }
+  .main-footer .community{
+    padding-left: 48px;
+  }
+ 
+}
+
+@media(max-width: 991px){
+  .main-footer .first-image{
+    display: none;
+  }
+  .main-footer .first-images{
+    display: none;
+  }
+  .main-footer .first-imagess{
+    display: none;
+  }
+  .main-footer .community {
+    padding-left: 10px;
+    padding-top: 60px;
+    padding-bottom: 0px;
+}
+.main-footer .socials{
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+}
+
+@media(max-width: 600px){
+.main-footer .first-image{
+  display: none;
+}
+.main-footer .first-images{
+  display: none;
+}
+.main-footer .first-imagess{
+  display: none;
+}
+.main-footer .community {
+  padding-left: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+.main-footer .socials{
+padding-top: 20px;}
+}
+.main-footer .community p{
+  padding-top: 5px;
+}
+.main-footer .socials img {
+  width: 75px;
+}
+.main-footer .socials img {
+  padding-right: 18px;
+}
+.main-footer{
+  margin-top: 50px;
+}
+
+
+@media(max-width: 400px){
+  .main-footer .socials img {
+    padding-right: 9px;
+}
+.main-footer .socials img {
+  width: 64px;
+
+}
+.all-right-reserved .main-terms{
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+.main-footer{
+  margin-top: 50px;
+}
+}
+
+@media(max-width: 360px){
+  .main-footer .community h1 {
+    font-size: 25px;
+}
+.main-footer .community {
+  padding-left: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.main-footer .socials img {
+  width: 55px;
+}
+.main-footer{
+  margin-top: 50px;
+}
+}
